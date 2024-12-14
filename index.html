@@ -2,17 +2,25 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drawing Board</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drawing board</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <div>
-        <h1>Drawing board</h1>
+    <h1>Drawing Board</h1>
+    <div class="option">
+        <button> <a href="index.html">50*50</a></button>
+        <button> <a href="index2.html">25*25</a></button>
+        <div>
+            <h3>Select Color</h3>
+            <input type="color" id="color-input">
+        </div>
+        <button onclick="erase()">Erase</button>
     </div>
     <div class="drawing-container">
+
         <div class="draw-board">
             <div class="box"></div>
             <div class="box"></div>
@@ -2514,10 +2522,8 @@
             <div class="box"></div>
             <div class="box"></div>
             <div class="box"></div>
-
         </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 
