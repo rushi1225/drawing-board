@@ -42,15 +42,15 @@ a {
 }
 
 .draw-board {
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
     display: grid;
-    grid-template-columns: repeat(25, 10px);
+    grid-template-columns: repeat(25, 20px);
     gap: 0;
 }
 
 .box {
-    height: 10px;
-    width: 10px;
+    height: 20px;
+    width: 20px;
     border: 0.1px solid black;
 }
